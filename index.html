@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .section-1 {
+        height: auto;
+        width: auto;
+        background-color: #fcc302;
+        padding: 25px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .section-1 > .child-1 {
+        height: 500px;
+        width: 600px;
+        /* border: 2px solid red; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 25px;
+      }
+
+      .para-1 > p {
+        font-size: 67px;
+        letter-spacing: 1px;
+        color: #ffffff;
+        font-weight: 600;
+        font-family: "Poppins";
+      }
+
+      .para-2 > p {
+        font-size: 29px;
+        letter-spacing: 0px;
+        color: #ffffff;
+        font-weight: 400;
+        font-family: "Poppins";
+      }
+
+      .btn{
+        width: 600px;
+        /* border: 2px solid purple; */
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        gap: 20px;
+      }
+
+      .btn > .btn-1 {
+        width: 182px;
+        height: 69px;
+        border-radius: 7px;
+        background-color: #00bec9;
+        color: white;
+        /* outline: #00bec9; */
+        border: #00bec9;
+      }
+
+      .btn > .btn-2 {
+        width: 182px;
+        height: 69px;
+        border-radius: 7px;
+        background-color: #daac00;
+        border: 3px solid #ffffff;
+        color: white;
+      }
+      .section-1 > .img {
+        height: 500px;
+        width: 400px;
+        /* border: 2px solid red; */
+        background-image: url("Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).svg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="section-1">
+      <div class="child-1">
+        <div class="para-1">
+          <p>First I Wanted to be a Veterinarian</p>
+        </div>
+        <div class="para-2">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores
+            consequuntur rerum ea dolorum vero facere! Aliquid iure, eum aliquam
+            accusamus.
+          </p>
+        </div>
+        <div class="btn">
+          <button class="btn-1">Contact Us</button>
+          <button class="btn-2">Our Services</button>
+        </div>
+      </div>
+      <div class="img"></div>
+    </div>
+  </body>
+</html>
